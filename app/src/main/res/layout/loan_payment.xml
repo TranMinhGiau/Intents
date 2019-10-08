@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="#000000">
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Loan amount: "
+            android:gravity="right"/>
+        <TextView android:id="@+id/loan_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Interest rate: "
+            android:gravity="right"/>
+        <TextView android:id="@+id/interest_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Months: "
+            android:gravity="right"/>
+        <TextView android:id="@+id/loan_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Monthly payment: "
+            android:gravity="right"/>
+        <TextView android:id="@+id/monthly_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#d3fd0707"
+            android:textSize="20dp"
+            android:gravity="left"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Total Payment: "
+            android:gravity="right"/>
+        <TextView android:id="@+id/total_payments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#d3fd0707"
+            android:textSize="20dp"
+            android:gravity="left"/>
+    </TableRow>
+</TableLayout>
